@@ -18,3 +18,9 @@ end
 def output_array(array)
   array.each {|e| puts e}
 end
+
+def return_string_array(array)
+  res = []
+  array.each {|e| res.append(e.to_s)}
+  return res
+end
