@@ -20,7 +20,5 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  res = []
-  array.each {|e| res.append(e.to_s)}
-  return res
+  array.map {|e| e.to_s}
 end
